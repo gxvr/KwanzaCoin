@@ -12,6 +12,10 @@ It is written in Solidity programming language
 
 ## 4. How does it work?
 
-## 5. Web
+## 5. Deployment
 
-## 6. App
+## 6. Web
+
+## 7. App
+
+## 8.Credits
