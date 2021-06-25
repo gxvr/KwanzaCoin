@@ -1,6 +1,10 @@
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.4.18;
 
-// Simpler version of ERC20 interface
+/**
+ * @title ERC20Basic interface
+ * @dev Simpler version of ERC20 interface
+ */
 
 contract ERC20Basic {
   function totalSupply() public view returns (uint256);
