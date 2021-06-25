@@ -9,10 +9,12 @@ African made Ethereum Token
 
 ## 4. How does it work?
 
-## 5. Deployment
+## 5. Roadmap
 
-## 6. Web
+## 6. Deployment
 
-## 7. App
+## 7. Web
 
-## 8.Credits
+## 8. App
+
+## 9.Credits
