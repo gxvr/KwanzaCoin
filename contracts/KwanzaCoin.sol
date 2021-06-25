@@ -22,18 +22,18 @@ contract KwanzaCoin is ERC20Basic {
     }
 
     // Transfer token for specified address
-    function transfer(address _to, uint256 _amount) public returns(bool) {
+    function transfer(address _to, uint256 _value) public returns(bool) {
         // _to is the address to send balance to
         require(_to != address(0));
 
-        // _amount is the amount to be sent
+        // _value is the amount to be sent
         // Checks if amount to be sent is less or equal to sender balance
-        require(_amount <= balances[msg.sender]);
+        require(_value <= balances[msg.sender]);
 
         // SafeMath.sub will throw if there is not enough balance.
-        balances[msg.sender] = balances[msg.sender].sub(_amount);
-        balances[_to] = balances[_to].add(_amount);
-        Transfer(msg.sender, _to, _amount);
+        balances[msg.sender] = balances[msg.sender].sub(_value);
+        balances[_to] = balances[_to].add(_value);
+        Transfer(msg.sender, _to, _value);
         return true;
     }
 
