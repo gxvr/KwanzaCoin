@@ -1,5 +1,5 @@
 # KwanzaCoin
-African made Ethereum Token
+African made Token built on top of Ethereum blockchain.
 
 ## 1. About
 
