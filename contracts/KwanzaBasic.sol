@@ -2,7 +2,7 @@
 pragma solidity >=0.4.22 <0.9.0;
 
 import "./internals/ERC20Basic.sol";
-import "./externals/SafeMath";
+import "./externals/SafeMath.sol";
 
 /**
  * @title KwanzaCoin
@@ -34,13 +34,13 @@ contract KwanzaBasic is ERC20Basic {
         // SafeMath.sub will throw if there is not enough balance.
         balances[msg.sender] = balances[msg.sender].sub(_value);
         balances[_to] = balances[_to].add(_value);
-        Transfer(msg.sender, _to, _value);
+        emit Transfer(msg.sender, _to, _value);
         return true;
     }
 
     // Gets the balance of owner address and returns it
     function balanceOf(address _owner) public view returns (uint256 balance) {
-        return balances[_owner]
+        return balances[_owner];
     }
 
 }
