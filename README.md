@@ -2,11 +2,8 @@
 African made Ethereum Token
 
 ## 1. About
-This is a standard ERC20 token contract built to be used in Ethereum blockchain .
 
-It is written in Solidity programming language
-
-## 2. Philosophy
+## 2. Purpose
 
 ## 3. What problems does it solve?
 
