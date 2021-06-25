@@ -17,4 +17,4 @@ African made Ethereum Token
 
 ## 8. App
 
-## 9.Credits
+## 9. Credits
