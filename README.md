@@ -2,7 +2,7 @@
 African made Token built on top of Ethereum blockchain.
 
 ## 1. Introduction
-KwanzaCoin - Is an 'educational-oriented' token that's aiming towards Africans. Its use is intended for educational purposes only (for now) and as proof of concept. We hope It will change the direction of crypto philanthropy; by becoming more secure, transparent, and ethical. 
+KwanzaCoin - Is an 'educational-oriented' token that's aimed towards Africans. Its use is intended for educational purposes only (for now) and as proof of concept. We hope It will change the direction of crypto philanthropy; by becoming more secure, transparent, and ethical. 
 
 KwanzaCoin is introducing “KCC”, a new cryptocurrency (ERC-20 Token) and entire smart contract ecosystem. The ecosystem powered by Ethereum Blockchain will have decentralized apps (dApps) to allow KwanzaCoin to operate seamlessly within them.
 
